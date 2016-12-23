@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "7.0"
+# platform :ios, "7.0"
+
+target "LookInDay" do
+
+	pod "AFNetworking", "~> 2.0"
+	pod "UIImageView-Letters"
+	pod "TXViewKeyboardResizer"
+	pod "SDWebImage", "~>3.7"
+	pod "XHAmazingLoading"
+	pod "OneSignal"
+    pod "Firebase"
+	pod "Firebase/Auth"
+	pod "Firebase/Database"
+	pod "Firebase/Storage"
+
+end

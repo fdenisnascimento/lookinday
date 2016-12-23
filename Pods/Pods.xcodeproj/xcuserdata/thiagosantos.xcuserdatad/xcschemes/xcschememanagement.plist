@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-AFNetworking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-TXViewKeyboardResizer-TXViewKeyboardResizer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-TXViewKeyboardResizer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-UIImageView-Letters.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>135D940C83A4A114B15441B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E43B3AFBC8B9631645CB8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D35A6DC46E6CF93167484F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91612F879563CD69045C39B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B53D369FAADFF25530E577DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

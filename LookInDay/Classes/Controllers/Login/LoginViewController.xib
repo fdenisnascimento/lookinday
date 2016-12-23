@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FSEmeric-Bold.ttf">
+            <string>FSEmeric-Bold</string>
+            <string>FSEmeric-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="btnFacebook" destination="Tmw-IC-WLS" id="Rqq-G3-adz"/>
+                <outlet property="btnVisitante" destination="Anp-2t-db1" id="9JJ-wb-Xt3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_login" translatesAutoresizingMaskIntoConstraints="NO" id="0Ol-P6-0hb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anp-2t-db1">
+                    <rect key="frame" x="10" y="425" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.28235294117647058" green="0.44313725490196076" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4mn-g5-Nui"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FSEmeric-Bold" family="FS Emeric" pointSize="18"/>
+                    <state key="normal" title="ENTRAR COMO VISITANTE">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="goToVisitante:" destination="-1" eventType="touchUpInside" id="nIz-UW-cVn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmw-IC-WLS">
+                    <rect key="frame" x="10" y="370" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.20784313725490197" green="0.30980392156862746" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="XdW-7d-2Aa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FSEmeric-Bold" family="FS Emeric" pointSize="18"/>
+                    <state key="normal" title="ENTRAR COM O FACEBOOK">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="goToFacebook:" destination="-1" eventType="touchUpInside" id="ukF-LL-GRL"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_login" translatesAutoresizingMaskIntoConstraints="NO" id="LtF-8c-rHE">
+                    <rect key="frame" x="92" y="186" width="136" height="107"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="136" id="LfS-6O-i1w"/>
+                        <constraint firstAttribute="height" constant="107" id="eMQ-il-eFW"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0Ol-P6-0hb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BCk-Wc-Bt1"/>
+                <constraint firstItem="Anp-2t-db1" firstAttribute="top" secondItem="Tmw-IC-WLS" secondAttribute="bottom" constant="15" id="BfP-pB-VYm"/>
+                <constraint firstItem="LtF-8c-rHE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Hal-YY-N4B"/>
+                <constraint firstItem="LtF-8c-rHE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="KWa-R8-GHT"/>
+                <constraint firstAttribute="trailing" secondItem="0Ol-P6-0hb" secondAttribute="trailing" id="Pig-B4-64g"/>
+                <constraint firstItem="Tmw-IC-WLS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="QzI-3G-15T"/>
+                <constraint firstAttribute="trailing" secondItem="Tmw-IC-WLS" secondAttribute="trailing" constant="10" id="gpm-Z3-xwJ"/>
+                <constraint firstAttribute="trailing" secondItem="Anp-2t-db1" secondAttribute="trailing" constant="10" id="mTQ-sH-bCA"/>
+                <constraint firstItem="Anp-2t-db1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="p0u-fq-nGs"/>
+                <constraint firstItem="0Ol-P6-0hb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sFu-jt-1cD"/>
+                <constraint firstAttribute="bottom" secondItem="Anp-2t-db1" secondAttribute="bottom" constant="15" id="v10-gU-iFK"/>
+                <constraint firstAttribute="bottom" secondItem="0Ol-P6-0hb" secondAttribute="bottom" id="wrU-Rn-QsB"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="68" y="224"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_login" width="416" height="739"/>
+        <image name="logo_login" width="177" height="140"/>
+    </resources>
+</document>
